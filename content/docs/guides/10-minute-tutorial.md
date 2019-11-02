@@ -725,10 +725,9 @@ Your `StepDefs.kt` file should now look like this:
 ```kotlin
 package hellocucumber
 
-import io.cucumber.java.PendingException
-import io.cucumber.java.en.Given
-import io.cucumber.java.en.When
-import io.cucumber.java.en.Then
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
 import org.junit.Assert.*
 
 class StepDefs {
@@ -883,9 +882,9 @@ Change your step definition code to this:
 ```java
 package hellocucumber;
 
-import io.cucumber.java.en.Given;
-import io.cucumber.java.en.When;
-import io.cucumber.java.en.Then;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
 import static org.junit.Assert.*;
 
 class IsItFriday {
@@ -920,9 +919,9 @@ public class Stepdefs {
 ```kotlin
 package hellocucumber
 
-import io.cucumber.java.en.Then
-import io.cucumber.java.en.Given
-import io.cucumber.java.en.When
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
 import junit.framework.Assert.assertEquals
 
 
@@ -1498,9 +1497,9 @@ Update the {{% text "java" %}}`Stepdefs.java`{{% /text %}}{{% text "javascript" 
 ```java
 package hellocucumber;
 
-import io.cucumber.java.en.Given;
-import io.cucumber.java.en.When;
-import io.cucumber.java.en.Then;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
 import static org.junit.Assert.*;
 
 class IsItFriday {
@@ -1535,9 +1534,9 @@ public class Stepdefs {
 ```kotlin
 package hellocucumber
 
-import io.cucumber.java.en.Then
-import io.cucumber.java.en.Given
-import io.cucumber.java.en.When
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
 import junit.framework.Assert.assertEquals
 
 
